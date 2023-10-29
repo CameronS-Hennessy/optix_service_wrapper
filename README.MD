@@ -1,4 +1,4 @@
-# Service Wrapper for Factory Talk Optix Runtime.\
+# Service Wrapper for Factory Talk Optix Runtime
 
 FT Optix does not support running as a service natively, however services is expected in Optix 1.4 ETA Q1 2024. Which is too late...
 
