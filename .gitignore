@@ -1,3 +1,4 @@
 Runtime/*
+!Runtime/INSTALL OPTIX RUNTIME HERE
 Log/*
 *.Log
