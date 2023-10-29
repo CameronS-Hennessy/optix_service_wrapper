@@ -1,0 +1,20 @@
+<service>
+  
+  <!-- ID of the service. It should be unique across the Windows system-->
+  <id>FTOptix</id>
+  <!-- Display name of the service -->
+  <name>Factory Talk Optix Runtime (G and K O'Connor)</name>
+  <!-- Service description -->
+  <description>FT Optix user runtime application</description>
+  
+  <!-- Path to the executable, which should be started -->
+  <executable>%BASE%\Runtime\FTOptixRuntime.exe</executable>
+
+  <startmode>Automatic</startmode>
+
+  <onfailure action="restart" />
+
+
+  <stoptimeout>20 sec</stoptimeout>
+
+</service>
