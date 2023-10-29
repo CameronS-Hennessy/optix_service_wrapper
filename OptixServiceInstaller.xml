@@ -12,9 +12,10 @@
 
   <startmode>Automatic</startmode>
 
-  <onfailure action="restart" />
+  <!-- Restart mode. Leave off during development because service fails to stop-->
+  <!-- <onfailure action="restart" /> -->
 
-
-  <stoptimeout>20 sec</stoptimeout>
+  <!-- Default stop timeout is ok -->
+  <!-- <stoptimeout>20 sec</stoptimeout> -->
 
 </service>
